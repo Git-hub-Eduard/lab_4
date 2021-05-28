@@ -1,0 +1,34 @@
+body{
+    background-image: url(image/HS-fp_KE6_mDl-fW_iSy0w.jpeg) ;
+    background-repeat: no-repeat;
+background-position: center;
+    width: 46%;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0px  auto;
+    padding: 0px 15px;
+}
+.lefting{
+    float: left;
+}
+.righting{
+    float: right;
+}
+
+@media(max-width:1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+@media(max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+}
+@media(max-width:767px){
+    .container{
+        max-width: none;
+    }
+}
